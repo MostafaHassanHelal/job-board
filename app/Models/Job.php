@@ -19,4 +19,10 @@ class Job extends Model
         'created_at',
         'updated_at',
     ];
+
+    public function locations()
+    {
+        return $this->belongsToMany(Location::class, 'job_location');
+    }
+
 }
