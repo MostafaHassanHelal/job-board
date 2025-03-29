@@ -30,4 +30,10 @@ class Job extends Model
         return $this->belongsToMany(Language::class, 'job_language');
     }
 
+    public function categories()
+    {
+        return $this->belongsToMany(Category::class, 'category_job');
+    }
+
+
 }
