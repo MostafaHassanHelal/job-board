@@ -25,4 +25,9 @@ class Job extends Model
         return $this->belongsToMany(Location::class, 'job_location');
     }
 
+    public function languages()
+    {
+        return $this->belongsToMany(Language::class, 'job_language');
+    }
+
 }
