@@ -49,7 +49,7 @@ This is a Laravel-based job board application that allows users to filter and pa
 
 The application will be available at http://localhost:8000.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 Base URL
 All API endpoints are prefixed with the base URL: http://localhost:8000/api.
@@ -60,8 +60,9 @@ Endpoint: /api/jobs
 Method: GET
 Description: Retrieve a paginated list of jobs with optional filtering.
 
-Query Parameters:
+## Query Parameters
 
-Parameter	Type	    Description
-filter	    string	    A filter string to narrow down job results.
-page	    int	        The page number to retrieve.
+| Parameter | Type   | Description                                      |
+|-----------|--------|--------------------------------------------------|
+| filter    | string | A filter string to narrow down job results.     |
+| page      | int    | The page number to retrieve.                    |
