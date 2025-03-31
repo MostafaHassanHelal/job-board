@@ -18,7 +18,7 @@ This is a Laravel-based job board application that allows users to filter and pa
 
 - PHP 8.2 or higher
 - Composer
-- SQLite (or another database supported by Laravel)
+- MYSQL
 
 ### Installation
 
