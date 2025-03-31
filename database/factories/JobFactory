@@ -1,0 +1,26 @@
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Job;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class JobFactory extends Factory
+{
+    protected $model = Job::class;
+
+    public function definition()
+    {
+        return [
+            'title' => $this->faker->jobTitle,
+            'description' => $this->faker->paragraph,
+            'company_name' => $this->faker->company,
+            'salary_min' => $this->faker->numberBetween(30000, 120000),
+            'salary_max' => $this->faker->numberBetween(30000, 120000),
+            'is_remote' => $this->faker->boolean,
+            'published_at' => $this->faker->dateTimeBetween('-1 year', 'now'),
+            'created_at' => now(),
+            'updated_at' => now(),
+        ];
+    }
+}
