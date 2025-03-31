@@ -30,7 +30,7 @@ This is a Laravel-based job board application that allows users to filter and pa
    cd job-board
 
 2. Install PHP dependencies:
-    composer install
+    ```bash composer install
 
 3. Create a .env file:
     cp .env.example .env
