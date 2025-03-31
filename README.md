@@ -42,9 +42,10 @@ This is a Laravel-based job board application that allows users to filter and pa
    
 5. ```bash
     php artisan migrate
-   php artisan db:seed
+    php artisan db:seed
 
-6. php artisan serve
+6.  ```bash
+    php artisan serve
 
 The application will be available at http://localhost:8000.
 
