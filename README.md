@@ -25,6 +25,7 @@ This is a Laravel-based job board application that allows users to filter and pa
 1. Clone the repository:
 
    ```bash
+   From main branch
    git clone https://github.com/MostafaHassanHelal/job-board.git
    cd job-board
 
