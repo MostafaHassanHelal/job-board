@@ -57,7 +57,9 @@ All API endpoints are prefixed with the base URL: http://localhost:8000/api.
 Endpoints
 1. Get Job Listings
 Endpoint: /api/jobs
+
 Method: GET
+
 Description: Retrieve a paginated list of jobs with optional filtering.
 
 ## Query Parameters
